@@ -1,0 +1,51 @@
+#frameHistory {
+    background-color: #1f3a67;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-sizing:border-box ;
+    min-height: 205px;
+}
+.rowHistory {
+    max-width: 355px;
+    max-height: 105px;
+    min-width: 355px;
+    min-height: 105px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #ffff;
+    box-shadow:  8px 6px -6px #b5abab;
+    background-color: #143d86;
+}
+
+#itemHistory {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+#valuesHistory {
+    width: 100%;
+}
+.values {
+    font-size: 15px;
+    margin: auto 5px;
+}
+#remove {
+    padding: 5px 10px;
+    position: absolute;
+    top: -88px;
+    right: -20px;
+    background: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
